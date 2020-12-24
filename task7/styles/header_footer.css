@@ -1,0 +1,209 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+.view_container {
+    padding-left: 5%;
+    padding-right: 5%
+}
+@media screen and (max-width: 768px)  {
+    .view_footer {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+    .main_view_container {
+
+    }
+
+    .content_container {
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        /*justify-content: flex-start;*/
+        /*align-item: center;*/
+
+    }
+    .footer_container {
+        background: #316099;
+        height: 657px;
+        margin-top: 110px;
+    }
+        .footer_top {
+            height: 391px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        @media screen and (max-width: 768px) {
+            .footer_top {
+                height: 321px;
+                flex-wrap: nowrap;
+
+            }
+        }
+            .footer_top_question {
+                /*width: 400px;*/
+            }
+                .footer_header1 {
+                    width: 341px;
+                    font-size: 36px;
+                    line-height: 46px;
+                    letter-spacing: 0.05em;
+                    color: #FFFFFF;
+                }
+                .footer_top_q_text {
+                    width: 495px;
+                    margin-top: 32px;
+                    font-size: 16px;
+                    line-height: 26px;
+                    letter-spacing: 0.05em;
+                    color: #FFFFFF;
+                    opacity: 0.6;
+                }
+                @media screen and (max-width: 768px){
+                    .footer_top_q_text {
+                        width: 300px;
+                    }
+                }
+            .footer_top_q_a {
+                width: 237px;
+                font-size: 16px;
+                line-height: 26px;
+                text-align: center;
+                letter-spacing: 0.04em;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                color: #FFFFFF;
+                background: #5A98D0;
+                text-decoration: none;
+            }
+        .footer_bottom {
+            height: 266px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        @media screen and (max-width: 768px) {
+            .footer_bottom {
+                height: 323px;
+            }
+        }
+            .footer_contacts {
+                list-style-type: none;
+                margin-top: 64px;
+                display: flex;
+                /*flex-wrap: wrap;*/
+                justify-content: space-between;
+                /*justify-content: space-around;*/
+                font-size: 16px;
+                line-height: 40px;
+                letter-spacing: 0.05em;
+                color: #FFFFFF;
+            }
+            @media screen and (max-width: 768px) {
+                .footer_contacts {
+                    flex-direction: column;
+                }
+            }
+            .footer_copy {
+                margin-top: 64px;
+                font-size: 16px;
+                line-height: 26px;
+                letter-spacing: 0.05em;
+                color: #FFFFFF;
+                opacity: 0.4;
+            }
+    @media screen and (max-width: 414px) {
+            .view_footer {
+                padding-left: 5%;
+                padding-right: 5%;
+            }
+            .footer_container {
+                background: #316099;
+                height: 542px;
+                margin-top: 48px;
+            }
+                .footer_top {
+                    height: 310px;
+                    margin: auto;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                }
+
+                    .footer_top_question {
+                        /*width: 400px;*/
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                        .footer_header1 {
+                            max-width: 300px;
+                            font-size: 24px;
+                            line-height: 28px;
+                            text-align: center;
+                            color: #FFFFFF;
+                        }
+                        .footer_top_q_text {
+                            max-width: 360px;
+                            margin-top: 32px;
+                            font-size: 16px;
+                            line-height: 26px;
+                            letter-spacing: 0.05em;
+                            text-align: center;
+                            color: #FFFFFF;
+                            opacity: 0.6;
+                        }
+                    .footer_top_q_a {
+                       width: 110px;
+                       font-size: 16px;
+                       line-height: 26px;
+                       text-align: center;
+                       letter-spacing: 0.04em;
+                       padding-top: 5px;
+                       padding-bottom: 5px;
+                       margin-top: 30px;
+
+
+
+                    }
+                .footer_bottom {
+                    height: 230px;
+                    margin: auto;
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                    .footer_contacts {
+                        list-style-type: none;
+                        margin-top: 32px;
+                        display: flex;
+                        /*flex-wrap: wrap;*/
+                        justify-content: space-between;
+                        /*justify-content: space-around;*/
+                        font-size: 16px;
+                        line-height: 30px;
+                        letter-spacing: 0.05em;
+                        color: #FFFFFF;
+                    }
+
+                    .footer_copy {
+                        margin-top: 36px;
+                        font-size: 16px;
+                        line-height: 26px;
+                        letter-spacing: 0.05em;
+                        color: #FFFFFF;
+                        opacity: 0.4;
+                        text-align: center;
+                    }
+    }
+
